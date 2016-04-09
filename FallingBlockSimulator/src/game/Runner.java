@@ -78,7 +78,7 @@ public class Runner implements ActionListener
 	public void gameLoop()
 	{
 	    timer = new Timer();
-	    timer.schedule(new Loop(), 0, 1000 / 4);
+	    timer.schedule(new Loop(), 0, 1000 / 5);
 	}
 	
 	public class Loop extends java.util.TimerTask

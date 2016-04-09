@@ -68,7 +68,7 @@ public class Splash extends JPanel
 	{
 		try 
 		{
-			splashPic = ImageIO.read(getClass().getResource("/resources/Splash.jpg"));
+			splashPic = ImageIO.read(getClass().getResource("/resources/IEE380T1.jpg"));
 		} catch (Exception e){
 			System.out.println("Couldn't load block image" + e);
 		}
